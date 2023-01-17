@@ -1,0 +1,88 @@
+body {
+  background-color: white;
+  font-family: Tahoma, sans-serif;
+}
+
+div.position {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  height: 800px;
+}
+
+h1 {
+  color: orange;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  font-size: 15vh;
+  opacity: 60%;
+}
+
+h2 {
+  color: blue;
+  font-size: 10vh;
+  opacity: 62%;
+  text-shadow: 2px 2px 4px black;
+}
+
+.fade-in-text {
+  transition-delay: 2s;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.text-2 {
+  transition-delay: 4s;
+  -webkit-animation: fadein 5s;
+          animation: fadein 5s;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=style.css.map */

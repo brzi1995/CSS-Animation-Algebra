@@ -1,0 +1,76 @@
+$color-1: white;
+$color-2: orange;
+$color-3: blue;
+
+$font: Tahoma, sans-serif;
+
+
+body{
+    background-color: $color-1;
+    font-family: $font;
+
+}
+
+div.position{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+    width: 100%;
+    text-align: center;
+	align-items: center;
+	height: 800px;
+    
+
+}
+
+h1{
+    color: $color-2;
+    text-shadow:2px 2px 4px rgb(0, 0, 0);
+    font-size: 15vh;
+    opacity: 60%;
+}
+h2{
+    color: $color-3;
+    font-size: 10vh;
+    opacity: 62%;
+    text-shadow: 2px 2px 4px black;
+}
+
+.fade-in-text{
+    transition-delay: 2s;
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;
+   
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    50%{opacity: 0;}
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    50%{opacity: 0;}
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    50%{opacity: 0.5;}
+    100% { opacity: 1; }
+  }
+  
+  .text-2{
+    transition-delay: 4s;
+    animation: fadein 5s;
+
+ }
+
+ @keyframes fadein {
+    0%{opacity: 0;}
+    50%{opacity: 0;}
+    100%{opacity:1;}
+ }
